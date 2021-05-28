@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <title>Bruno Mars Website Design</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="https://open.spotify.com/artist/0du5cEVh5yTK9QJze8zA0C"><img src="imagens/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#songs">SONGS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box" id="home">
+            <h1>Bruno Mars</h1>
+            <p>One of the Greatest Singers in the World, a Star in music</p>
+            <a href="#about" class="hero-btn">Keep reading to learn more about it</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1>About Him</h1>
+        <p>Peter Gene Hernandez (Honolulu, October 8, 1985), best known by the stage name Bruno Mars is an American singer, songwriter, music producer, dancer and multi-instrumentalist, born and raised in Hawaii.
+        </p>
+        <div class="row">
+            <div class="about-col">
+                <h3>Starting</h3>
+                <p>Coming from a family with a great musical tradition, Mars began to sing and perform as an amateur artist during his childhood. After graduating from high school, he decided to move to Los Angeles, California, with the goal of investing more and more in his music career.</p>
+            </div>
+            <div class="about-col">
+                <h3>Begin of Carreer</h3>
+                <p>In Los Angeles, he formed the team of producers The Smeezingtons, alongside Philip Lawrence and Ari Levine, working for Motown Records. After his failure with the Motown Records label, Mars signed with Atlantic Records in 2009. <br> During his first months as an artist for the label, he co-wrote the arrangements and made appearances on songs such as the rapper's "Nothin 'on You" (2010) BoB, and "Billionaire" (2010), by American singer Travie McCoy.</p>
+            </div>
+            <div class="about-col">
+                <h3>The Success</h3>
+                <p>In 2014, Mars collaborated with Mark Ronson on Uptown Funk, a single that performed well on many music charts around the world, including the USA (for 14 consecutive weeks), Australia, Canada, New Zealand and the United Kingdom. <br> Her third studio album, 24K Magic (2016), received seven Grammy Awards and released the hit singles "24K Magic", "That's What I Like", "Versace on the Floor" and "Finesse"..</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="songs" id="songs">
+        <h1>Top 3 Bruno Mars Songs!</h1>
+        <p>Check out Bruno Mars' greatest songs, he has eleven Grammys, four Guinness World Records and a 3x certified Platinum album (24K MAGIC), and his iconic performance at the 2015 Super Bowl attracted a record total audience of 115.3 million.</p>
+
+        <div class="row">
+            <div class="songs-col">
+                <a href="https://www.youtube.com/watch?v=LjhCEhWiKXk"> 
+                    <div class="layer">
+                    <h3>Just the Way You Are</h3>
+                </div>
+                </a>
+                <img src="imagens/2.jpg">
+            </div>
+            <div class="songs-col">
+                <a href="https://www.youtube.com/watch?v=e-fA-gBCkj0">
+                    <div class="layer">
+                        <h3>Locked Out of Heaven</h3>
+                    </div>
+                </a>
+                <img src="imagens/premies.jpg">
+            </div>
+            <div class="songs-col">
+                <a href="https://www.youtube.com/watch?v=OPf0YbXqDm0">
+                    <div class="layer">
+                        <h3>Uptown Funk</h3>
+                    </div>
+                </a>
+                <img src="imagens/premies2.jpg">
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
